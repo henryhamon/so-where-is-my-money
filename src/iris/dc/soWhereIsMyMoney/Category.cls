@@ -9,6 +9,9 @@ Property Name As %String [ Required ];
 /// Category Type (Expense or Income)
 Property Type As %String(DISPLAYLIST = ",Income,Expense", VALUELIST = ",I,E") [ InitialExpression = "E", Required ];
 
+/// Transactions
+Relationship Transactions As dc.soWhereIsMyMoney.Transaction [ Cardinality = many, Inverse = Category ];
+
 ClassMethod FindOrCreateByName(name As %String, Output category As dc.soWhereIsMyMoney.Category) As %Status
 {
   Set sc = $$$OK

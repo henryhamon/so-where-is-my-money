@@ -1,13 +1,31 @@
 Class dc.soWhereIsMyMoney.Transaction Extends %Persistent
 {
 
+Index IdxCategory On Category;
+
+/// Transaction description
 Property Description As %String [ Required ];
 
+/// Created at
 Property CreatedAt As %DateTime;
 
+/// Updated at
 Property UpdatedAt As %DateTime;
 
+/// Transaction amount
 Property Amount As %Numeric [ Required ];
+
+/// Trasaction Category
+Relationship Category As dc.soWhereIsMyMoney.Category [ Cardinality = one, Inverse = Transactions ];
+
+Method %OnBeforeSave(insert As %Boolean) As %Status [ Private, ServerOnly = 1 ]
+{
+  If (insert) {
+    Set ..CreatedAt = $Horolog
+  }
+  Set ..UpdatedAt = $Horolog
+  Quit $$$OK
+}
 
 Storage Default
 {

@@ -6,6 +6,13 @@ USER root
 WORKDIR /opt/irisbuild
 RUN chown ${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} /opt/irisbuild
 USER ${ISC_PACKAGE_MGRUSER}
+ENV PIP_TARGET=${ISC_PACKAGE_INSTALLDIR}/mgr/python
+
+RUN pip3 install numpy \
+        pandas \
+        matplotlib \
+        scikit-learn \
+        h5py
 
 #COPY  Installer.cls .
 COPY  src src

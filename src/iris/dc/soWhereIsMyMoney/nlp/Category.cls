@@ -1,11 +1,9 @@
 Class dc.soWhereIsMyMoney.nlp.Category
 {
 
-ClassMethod Train() [ Language = python ]
+ClassMethod Suggestion(description As %String) [ Language = python ]
 {
   import iris
-  import pandas as pd
-
   from sklearn.model_selection import train_test_split
   from sklearn.feature_extraction.text import CountVectorizer
   from sklearn.feature_extraction.text import TfidfTransformer
@@ -21,13 +19,8 @@ ClassMethod Train() [ Language = python ]
   X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
   model = LinearSVC()
   model.fit(X_train_tfidf, y_train)
-  ##print(model.predict(count_vect.transform(["Martineli's diner"]))[0])
-  ##print(model.predict(count_vect.transform(["Wally Mart"])))
-}
 
-ClassMethod Suggestion(description As %String) [ Language = python ]
-{
-  return ""
+  return model.predict(count_vect.transform([description]))[0]
 }
 
 }

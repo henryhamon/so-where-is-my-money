@@ -11,8 +11,7 @@ ENV PIP_TARGET=${ISC_PACKAGE_INSTALLDIR}/mgr/python
 RUN pip3 install numpy \
         pandas \
         matplotlib \
-        scikit-learn \
-        h5py
+        scikit-learn
 
 #COPY  Installer.cls .
 COPY  src src

@@ -13,9 +13,9 @@ ClassMethod Suggestion(description As %String) [ Language = python ]
   df = rs.dataframe()
 
   X_train, X_test, y_train, y_test = train_test_split(df['description'], df['category'], random_state = 0)
-  count_vect = CountVectorizer()
+  count_vect = CountVectorizer(min_df=5, encoding='utf8', ngram_range=(1, 2), stop_words='english')
   X_train_counts = count_vect.fit_transform(X_train)
-  tfidf_transformer = TfidfTransformer()
+  tfidf_transformer = TfidfTransformer(norm='l2',sublinear_tf=True)
   X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
   model = LinearSVC()
   model.fit(X_train_tfidf, y_train)

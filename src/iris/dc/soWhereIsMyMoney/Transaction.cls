@@ -35,6 +35,8 @@ ClassMethod Log(amount As %Numeric, description As %String, category As %String 
   Set transaction.Description = description
   Set:(category="") category = ##class(dc.soWhereIsMyMoney.nlp.Category).Suggestion(description)
   Try {
+    $$$ThrowOnError(##class(dc.soWhereIsMyMoney.Category).FindOrCreateByName(category, .Category))
+    Set transaction.Category = Category
     $$$ThrowOnError(transaction.%Save())
   } Catch ex {
     Set tSC=ex.AsStatus()

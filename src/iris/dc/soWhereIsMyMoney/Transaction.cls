@@ -16,7 +16,7 @@ Property UpdatedAt As %DateTime;
 Property Amount As %Numeric [ Required ];
 
 /// Trasaction Category
-Relationship Category As dc.soWhereIsMyMoney.Category [ Cardinality = one, Inverse = Transactions ];
+Relationship Category As dc.soWhereIsMyMoney.Category [ Cardinality = one, Inverse = Transactions, Required ];
 
 Method %OnBeforeSave(insert As %Boolean) As %Status [ Private, ServerOnly = 1 ]
 {
@@ -25,6 +25,21 @@ Method %OnBeforeSave(insert As %Boolean) As %Status [ Private, ServerOnly = 1 ]
   }
   Set ..UpdatedAt = $Horolog
   Quit $$$OK
+}
+
+ClassMethod Log(amount As %Numeric, description As %String, category As %String = "") As %Status
+{
+  Set tSC = $$$OK
+  Set transaction = ..%New()
+  Set transaction.Amount = amount
+  Set transaction.Description = description
+  Set:(category="") category = ##class(dc.soWhereIsMyMoney.nlp.Category).Suggestion(description)
+  Try {
+    $$$ThrowOnError(transaction.%Save())
+  } Catch ex {
+    Set tSC=ex.AsStatus()
+  }
+  Quit tSC
 }
 
 Storage Default

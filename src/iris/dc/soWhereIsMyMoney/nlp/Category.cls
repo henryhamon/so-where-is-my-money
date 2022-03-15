@@ -12,7 +12,7 @@ ClassMethod Suggestion(description As %String) [ Language = python ]
   rs = iris.sql.exec('SELECT Category->ID as category_id, Category->Name as category, Description as description FROM dc_soWhereIsMyMoney."Transaction" ')
   df = rs.dataframe()
 
-  X_train, X_test, y_train, y_test = train_test_split(df['description'], df['category'], random_state = 0)
+  X_train, _, y_train, _ = train_test_split(df['description'], df['category'], random_state = 0)
   count_vect = CountVectorizer(min_df=5, encoding='utf8', ngram_range=(1, 2), stop_words='english')
   X_train_counts = count_vect.fit_transform(X_train)
   tfidf_transformer = TfidfTransformer(norm='l2',sublinear_tf=True)

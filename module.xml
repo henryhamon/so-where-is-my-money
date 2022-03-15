@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="dc-sample-template.ZPM">
+  <Document name="soWhereIsMyMoney.ZPM">
     <Module>
-      <Name>dc-sample-template</Name>
-      <Version>1.1.0</Version>
-      <Description>A basic module template for InterSystems ObjectScript with Unittests</Description>
+      <Name>soWhereIsMyMoney</Name>
+      <Author>
+        <Person>Henry H Pereira</Person>
+        <License>MIT</License>
+      </Author>
+      <Version>1.0.0</Version>
+      <Description>InterSystems IRIS Expense Tracker with Machine Learning</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src/iris</SourcesRoot>
-      <Resource Name="dc.sample.PKG"/>
-      <UnitTest Name="/tests" Package="dc.sample.unittests" Phase="test"/>
+      <Resource Name="dc.soWhereIsMyMoney.PKG"/>
     </Module>
   </Document>
 </Export>

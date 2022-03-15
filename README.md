@@ -1,16 +1,16 @@
  [![Gitter](https://img.shields.io/badge/Available%20on-Intersystems%20Open%20Exchange-00b2a9.svg)](https://openexchange.intersystems.com/package/intersystems-iris-dev-template)
- [![Quality Gate Status](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2Fintersystems-iris-dev-template&metric=alert_status)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community%2Fintersystems-iris-dev-template)
- [![Reliability Rating](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2Fintersystems-iris-dev-template&metric=reliability_rating)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community%2Fintersystems-iris-dev-template)
+ [![Quality Gate Status](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2Fso-where-is-my-money&metric=alert_status)]https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community%2Fso-where-is-my-money)
+ [![Reliability Rating](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2Fso-where-is-my-money&metric=reliability_rating)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community%2Fso-where-is-my-money)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat&logo=AdGuard)](LICENSE)
 # intersystems-iris-dev-template
-This is a basic template of a dev environment to  edit, make a package module, compile, debug, test,  commit/push the objectscript code with InterSystems IRIS. 
+This is a basic template of a dev environment to  edit, make a package module, compile, debug, test,  commit/push the objectscript code with InterSystems IRIS.
 
 ## Description
 The idea of the repository is to provide a read-to-go dev environment if one needs to code InterSystems ObjectScript.
 * The template runs InterSystems IRIS Community Edition running in a docker container
 * It creates a fresh new namespace and database IRISAPP
-* It loads the ObjectScript code into IRISAPP database using  Package Manager 
+* It loads the ObjectScript code into IRISAPP database using  Package Manager
 * It suggests development with 'Package First' paradigm. Watch the video](https://www.youtube.com/watch?v=havPyPbUj1I)
 * Provides unittests environment: sample unittests, tests module enablement
 
@@ -21,7 +21,7 @@ Once you clone the new repo on your laptop and open the VSCode with installed In
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
-## Installation 
+## Installation
 Clone/git pull the repo into any local directory
 ```
 $ git clone https://github.com/intersystems-community/intersystems-iris-dev-template.git
@@ -45,7 +45,7 @@ Enter HALT or H (not case-sensitive)
 ```
 ## What does it do
 THe sample repository contains two simplest examples of ObjectScript classes: ObjectScript method that returns value and method that creates a persistent record.
-1. 
+1.
 Open IRIS terminal and run the ObjectScript Test() method to see if runs the script and returns values from IRIS:
 
 ```
@@ -57,7 +57,7 @@ It works!
 
 
 
-2. 
+2.
 Class dc.sample.PersistentClass contains a method CreateRecord that creates an object with one property Test and returns its id.
 Open IRIS terminal and run:
 ```
@@ -87,7 +87,7 @@ Feel free to delete PackageSample folder and place your ObjectScript classes in 
 and her on the [naming convention]()
 
 ## running unittests
-The template contains to test classes: TestObjectScript.cls and TestPersistentClass.cls 
+The template contains to test classes: TestObjectScript.cls and TestPersistentClass.cls
 To run the unittests we can use Package Manager environment.
 ```
 IRISAPP>zpm
@@ -141,8 +141,8 @@ In case of test errors you can check it back in the UnitTest portal, that can be
 ## What else is inside the repository
 
 ### .github folder
-it contains to github actions workflows: 
-1. github-registry.yml 
+it contains to github actions workflows:
+1. github-registry.yml
     Once changes pushed to the repo, the action builds the docker image on Github side and pushes the image to Github registry that can be very convenient to further cloud deployement, e.g. kubernetes.
 2. objectscript-qaulity.yml
     with every push to master or main branch the workflow launches the repo test on objectscript issues with Objectscript Quality tool, [see the examples](https://community.objectscriptquality.com/projects?sort=-analysis_date). This works if the repo is open-source only.
@@ -186,4 +186,3 @@ It describes what is loaded with the method, how it is being tested and what app
 
 
 [Read about all the files in this artilce](https://community.intersystems.com/post/dockerfile-and-friends-or-how-run-and-collaborate-objectscript-projects-intersystems-iris)
-

@@ -1,0 +1,473 @@
+,category_id,category,description
+0,2,Eating Out,Casanovas Chinese Restaurant
+1,8,Groceries,Fresh Feed
+2,8,Groceries,Vespucci Liquor Market
+3,2,Eating Out,The Mos Eisley Cantina
+4,2,Eating Out,The El Jefe food truck
+5,4,Fuel,Gas-N-Go
+6,2,Eating Out,Indigo Tea Shop
+7,2,Eating Out,Indigo Tea Shop
+8,2,Eating Out,Copacabana
+9,2,Eating Out,Casanovas Chinese Restaurant
+10,2,Eating Out,Good Burger
+11,2,Eating Out,Restaurant to Another World
+12,2,Eating Out,Soul Kitchen
+13,4,Fuel,Fuel Stop HQ
+14,2,Eating Out,Omeletteville
+15,2,Eating Out,Pizza Planet
+16,7,Entertainment,Maroon Cartoons
+17,2,Eating Out,Restaurant Empire
+18,2,Eating Out,Spatz
+19,2,Eating Out,The Tip Top Cafe
+20,2,Eating Out,Los Pollos Hermanos
+21,2,Eating Out,Soul Food Cafe
+22,2,Eating Out,Omeletteville
+23,2,Eating Out,The Caribou Kitchen
+24,2,Eating Out,Dorsia
+25,7,Entertainment,Bad Wolf Corporation
+26,4,Fuel,Pumped Up Gas
+27,8,Groceries,Fresh Feed
+28,2,Eating Out,Beacon Street Pizza
+29,8,Groceries,Cloud 9
+30,2,Eating Out,Fat Pizza
+31,8,Groceries,Berry Mart
+32,8,Groceries,Auto Mercado Del Sol
+33,2,Eating Out,Spatz
+34,2,Eating Out,Sals Pizza
+35,2,Eating Out,Cafe Nervosa
+36,2,Eating Out,Beacon Street Pizza
+37,2,Eating Out,Robins Nest
+38,2,Eating Out,Monk Cafe
+39,2,Eating Out,Gastons
+40,3,Personal Care,VersaLife Corporation
+41,2,Eating Out,Gusteaus
+42,4,Fuel,Fuel Stop HQ
+43,2,Eating Out,Boars Nest
+44,2,Eating Out,Ten Forward
+45,5,Sport,Center Fitness
+46,2,Eating Out,Vesuvio
+47,8,Groceries,Berry Mart
+48,2,Eating Out,La Ratatouille
+49,2,Eating Out,Fratellis Restaurant 
+50,2,Eating Out,Louie's Italian Restaurant
+51,2,Eating Out,Joes Pie Diner
+52,2,Eating Out,Copacabana
+53,4,Fuel,Pumped Up Gas
+54,2,Eating Out,Solino
+55,7,Entertainment,Bad Wolf Corporation
+56,6,Utilities,Parrish Communications
+57,2,Eating Out,Louie's Italian Restaurant
+58,2,Eating Out,The ice-cream parlor
+59,2,Eating Out,Soul Kitchen
+60,2,Eating Out,Ten Forward
+61,2,Eating Out,Indigo Tea Shop
+62,2,Eating Out,The Goulash
+63,4,Fuel,Imperial Oil
+64,2,Eating Out,The Pie Hole
+65,2,Eating Out,Joe's Bar
+66,2,Eating Out,Boars Nest
+67,2,Eating Out,Satriales Pork Store
+68,8,Groceries,Auto Mercado Del Sol
+69,6,Utilities,Parrish Communications
+70,8,Groceries,Foodie Mart
+71,2,Eating Out,Monk Cafe
+72,2,Eating Out,Jack Rabbit Slims 
+73,2,Eating Out,The Pie Hole
+74,2,Eating Out,Krusty Burger
+75,4,Fuel,Fuel Stop HQ
+76,2,Eating Out,Paunch Burger
+77,2,Eating Out,Panic Restaurant
+78,3,Personal Care,Medical Mechanica FLCL
+79,2,Eating Out,Sals Pizza
+80,2,Eating Out,Indigo Tea Shop
+81,8,Groceries,Cloud 9
+82,2,Eating Out,Satriales Pork Store
+83,2,Eating Out,Stan Mikitas Donuts
+84,8,Groceries,Foodie Mart
+85,2,Eating Out,The El Jefe food truck
+86,2,Eating Out,Vesuvio
+87,2,Eating Out,Monster Cafe
+88,4,Fuel,Pumped Up Gas
+89,2,Eating Out,Indigo Tea Shop
+90,2,Eating Out,Louie's Italian Restaurant
+91,8,Groceries,Auto Mercado Del Sol
+92,2,Eating Out,Omeletteville
+93,2,Eating Out,Central Perk
+94,8,Groceries,Hector's
+95,2,Eating Out,Paunch Burger
+96,3,Personal Care,Optican
+97,2,Eating Out,The Chinese Restaurant
+98,2,Eating Out,Big Belly Burger
+99,2,Eating Out,Ye Olde Greyfriars Dining-Rooms
+100,8,Groceries,Vespucci Liquor Market
+101,4,Fuel,Pumped Up Gas
+102,8,Groceries,Foodie Mart
+103,8,Groceries,Berry Mart
+104,5,Sport,Intensity Body Training
+105,2,Eating Out,Dorsia
+106,2,Eating Out,Vesuvio
+107,2,Eating Out,Pie in the Sky
+108,2,Eating Out,Joes Pie Diner
+109,2,Eating Out,Monster Cafe
+110,2,Eating Out,Cafe Nervosa
+111,8,Groceries,Tonys Grossery
+112,2,Eating Out,JJs Diner
+113,2,Eating Out,Cheers
+114,2,Eating Out,Robins Nest
+115,8,Groceries,Auto Mercado Del Sol
+116,4,Fuel,Gas Stop
+117,2,Eating Out,La Ratatouille
+118,2,Eating Out,Krusty Burger
+119,8,Groceries,Tonys Grossery
+120,2,Eating Out,Los Pollos Hermanos
+121,2,Eating Out,Stan Mikitas Donuts
+122,2,Eating Out,The Whistle Stop Cafe
+123,2,Eating Out,Monk Cafe
+124,2,Eating Out,Boars Nest
+125,2,Eating Out,Pizza Planet
+126,2,Eating Out,Vesuvio
+127,1,Income,payout
+128,1,Income,payout
+129,1,Income,payout
+130,1,Income,payout
+131,1,Income,payout
+132,1,Income,payout
+133,2,Eating Out,Cafe Nervosa
+134,6,Utilities,McCandless Communications Corporation
+135,8,Groceries,Tonys Grossery
+136,2,Eating Out,Krusty Burger
+137,1,Income,payout
+138,8,Groceries,Foodie Mart
+139,8,Groceries,Tonys Grossery
+140,4,Fuel,Pumped Up Gas
+141,2,Eating Out,Hells Kitchen
+142,2,Eating Out,Mels Diner
+143,2,Eating Out,Joe's Bar
+144,8,Groceries,Mama Mart
+145,2,Eating Out,Copacabana
+146,2,Eating Out,MacLarens Pub
+147,2,Eating Out,Louie's Italian Restaurant
+148,8,Groceries,Fresh Feed
+149,8,Groceries,Hector's
+150,8,Groceries,Web n Muffet Market
+151,4,Fuel,Imperial Oil
+152,2,Eating Out,Krusty Burger
+153,2,Eating Out,Beacon Street Pizza
+154,8,Groceries,Mini Mart
+155,8,Groceries,Foodie Mart
+156,2,Eating Out,Joes Pie Diner
+157,5,Sport,Intensity Body Training
+158,8,Groceries,Mama Mart
+159,2,Eating Out,The Goulash
+160,2,Eating Out,The Restaurant at the End of the Universe
+161,2,Eating Out,La Ratatouille
+162,2,Eating Out,Joe's Bar
+163,2,Eating Out,Joe's Bar
+164,1,Income,payout
+165,2,Eating Out,Jack Rabbit Slims 
+166,8,Groceries,Hector's
+167,2,Eating Out,Cafe Nervosa
+168,8,Groceries,Tonys Grossery
+169,2,Eating Out,Catlemans ranch
+170,2,Eating Out,Fat Pizza
+171,4,Fuel,Gas Stop
+172,1,Income,payout
+173,2,Eating Out,The ice-cream parlor
+174,4,Fuel,Gas-N-Go
+175,2,Eating Out,Sals Pizza
+176,8,Groceries,Fresh Feed
+177,8,Groceries,Tonys Grossery
+178,8,Groceries,Fresh Feed
+179,8,Groceries,Auto Mercado Del Sol
+180,2,Eating Out,Frozen Banana Stand
+181,2,Eating Out,Cafe Nervosa
+182,6,Utilities,Parrish Communications
+183,1,Income,payout
+184,4,Fuel,Pumped Up Gas
+185,8,Groceries,Mama Mart
+186,1,Income,payout
+187,1,Income,payout
+188,1,Income,payout
+189,8,Groceries,Hector's
+190,8,Groceries,Berry Mart
+191,2,Eating Out,Central Perk
+192,2,Eating Out,Good Burger
+193,2,Eating Out,Big Kahuna Burger
+194,8,Groceries,Mini Mart
+195,4,Fuel,Imperial Oil
+196,8,Groceries,Mama Mart
+197,1,Income,payout
+198,2,Eating Out,Cheers
+199,1,Income,payout
+200,8,Groceries,Foodie Mart
+201,2,Eating Out,The Chinese Restaurant
+202,2,Eating Out,Cafe Nervosa
+203,2,Eating Out,The Whistle Stop Cafe
+204,8,Groceries,Web n Muffet Market
+205,1,Income,payout
+206,1,Income,payout
+207,2,Eating Out,Stan Mikitas Donuts
+208,4,Fuel,Pumped Up Gas
+209,2,Eating Out,Restaurant Empire
+210,2,Eating Out,Indigo Tea Shop
+211,8,Groceries,Mama Mart
+212,2,Eating Out,Boars Nest
+213,8,Groceries,Web n Muffet Market
+214,2,Eating Out,The Pie Hole
+215,5,Sport,CrossFit Max Effort
+216,2,Eating Out,Cheers
+217,2,Eating Out,Stan Mikitas Donuts
+218,2,Eating Out,Jack Rabbit Slims 
+219,4,Fuel,Fuel Stop HQ
+220,2,Eating Out,Cafe Nervosa
+221,2,Eating Out,MacLarens Pub
+222,2,Eating Out,Omeletteville
+223,3,Personal Care,Spishwax from Spishak
+224,8,Groceries,Berry Mart
+225,2,Eating Out,Arnold's Drive-In
+226,8,Groceries,Mama Mart
+227,2,Eating Out,Cheers
+228,8,Groceries,Mama Mart
+229,2,Eating Out,The Krusty Krab
+230,2,Eating Out,Hells Kitchen
+231,2,Eating Out,The Frosty Place
+232,2,Eating Out,Fat Pizza
+233,2,Eating Out,The Double R Diner
+234,4,Fuel,Pumped Up Gas
+235,8,Groceries,Auto Mercado Del Sol
+236,2,Eating Out,Paunch Burger
+237,8,Groceries,Hector's
+238,8,Groceries,Hector's
+239,2,Eating Out,Sals Pizza
+240,2,Eating Out,Omeletteville
+241,4,Fuel,Gas Stop
+242,2,Eating Out,Cheers
+243,2,Eating Out,The ice-cream parlor
+244,2,Eating Out,Monster Cafe
+245,2,Eating Out,Pizza Planet
+246,2,Eating Out,Joe's Bar
+247,2,Eating Out,Big Belly Burger
+248,2,Eating Out,Gastons
+249,4,Fuel,Super Station
+250,2,Eating Out,Casanovas Chinese Restaurant
+251,2,Eating Out,Arnold's Drive-In
+252,7,Entertainment,Dragonfire Films
+253,2,Eating Out,Paunch Burger
+254,2,Eating Out,Mels Diner
+255,2,Eating Out,Central Perk
+256,2,Eating Out,Monk Cafe
+257,2,Eating Out,Solino
+258,2,Eating Out,Pie in the Sky
+259,2,Eating Out,Pizza Planet
+260,2,Eating Out,Catlemans ranch
+261,7,Entertainment,Dragonfire Films
+262,4,Fuel,Fuel Stop HQ
+263,8,Groceries,Web n Muffet Market
+264,2,Eating Out,Solino
+265,8,Groceries,Cloud 9
+266,2,Eating Out,Beacon Street Pizza
+267,8,Groceries,Tonys Grossery
+268,8,Groceries,Web n Muffet Market
+269,2,Eating Out,Gusteaus
+270,2,Eating Out,Solino
+271,2,Eating Out,Pizza Planet
+272,2,Eating Out,Pizza Planet
+273,2,Eating Out,Catlemans ranch
+274,2,Eating Out,Solino
+275,2,Eating Out,Cheers
+276,3,Personal Care,Hanso Foundation
+277,2,Eating Out,The Goulash
+278,4,Fuel,Gas Stop
+279,2,Eating Out,Cheers
+280,2,Eating Out,MacLarens Pub
+281,5,Sport,Blueprint Fitness
+282,2,Eating Out,Omeletteville
+283,8,Groceries,Foodie Mart
+284,2,Eating Out,Central Perk
+285,2,Eating Out,Cafe Nervosa
+286,2,Eating Out,JJs Diner
+287,2,Eating Out,Jack Rabbit Slims 
+288,2,Eating Out,Gastons
+289,4,Fuel,Imperial Oil
+290,2,Eating Out,Gastons
+291,7,Entertainment,Maroon Cartoons
+292,6,Utilities,Parrish Communications
+293,2,Eating Out,Big Belly Burger
+294,2,Eating Out,The Tip Top Cafe
+295,2,Eating Out,Indigo Tea Shop
+296,2,Eating Out,Soul Food Cafe
+297,2,Eating Out,Monk Cafe
+298,2,Eating Out,Fat Pizza
+299,4,Fuel,Super Station
+300,2,Eating Out,Boars Nest
+301,2,Eating Out,Fratellis Restaurant 
+302,2,Eating Out,Gusteaus
+303,2,Eating Out,Omeletteville
+304,8,Groceries,Auto Mercado Del Sol
+305,6,Utilities,Parrish Communications
+306,8,Groceries,Mama Mart
+307,2,Eating Out,Cheers
+308,2,Eating Out,Panic Restaurant
+309,2,Eating Out,The Tip Top Cafe
+310,2,Eating Out,Gusteaus
+311,4,Fuel,Fuel Stop HQ
+312,2,Eating Out,Bob's Burgers
+313,2,Eating Out,Joes Pie Diner
+314,3,Personal Care,Khumalo biotech corporation
+315,2,Eating Out,The Chinese Restaurant
+316,2,Eating Out,Panic Restaurant
+317,8,Groceries,Mini Mart
+318,2,Eating Out,Omeletteville
+319,2,Eating Out,The Caribou Kitchen
+320,8,Groceries,Mama Mart
+321,2,Eating Out,Catlemans ranch
+322,2,Eating Out,Cheers
+323,2,Eating Out,Pie in the Sky
+324,4,Fuel,Pumped Up Gas
+325,2,Eating Out,Louie's Italian Restaurant
+326,2,Eating Out,Jack Rabbit Slims 
+327,8,Groceries,Foodie Mart
+328,2,Eating Out,Satriales Pork Store
+329,2,Eating Out,Monster Cafe
+330,8,Groceries,Hector's
+331,2,Eating Out,Monster Cafe
+332,3,Personal Care,Optican
+333,2,Eating Out,The Pie Hole
+334,2,Eating Out,Omeletteville
+335,2,Eating Out,Pie in the Sky
+336,8,Groceries,Mini Mart
+337,4,Fuel,Gas Stop
+338,8,Groceries,Tonys Grossery
+339,8,Groceries,Berry Mart
+340,5,Sport,CrossFit Max Effort
+341,2,Eating Out,Cheers
+342,2,Eating Out,The Whistle Stop Cafe
+343,2,Eating Out,Frozen Banana Stand
+344,2,Eating Out,Jack Rabbit Slims 
+345,2,Eating Out,Robins Nest
+346,2,Eating Out,JJs Diner
+347,8,Groceries,Auto Mercado Del Sol
+348,2,Eating Out,Krusty Burger
+349,2,Eating Out,Big Belly Burger
+350,2,Eating Out,Fratellis Restaurant 
+351,8,Groceries,Vespucci Liquor Market
+352,4,Fuel,Imperial Oil
+353,2,Eating Out,Cafe Nervosa
+354,2,Eating Out,The ice-cream parlor
+355,8,Groceries,Auto Mercado Del Sol
+356,2,Eating Out,Copacabana
+357,2,Eating Out,Jack Rabbit Slims 
+358,2,Eating Out,JJs Diner
+359,2,Eating Out,Joes Pie Diner
+360,2,Eating Out,Dorsia
+361,2,Eating Out,Jack Rabbit Slims 
+362,2,Eating Out,The Krusty Krab
+363,1,Income,payout
+364,1,Income,payout
+365,1,Income,payout
+366,1,Income,payout
+367,1,Income,payout
+368,1,Income,payout
+369,2,Eating Out,Big Kahuna Burger
+370,6,Utilities,McCandless Communications Corporation
+371,8,Groceries,Mama Mart
+372,2,Eating Out,The Restaurant at the End of the Universe
+373,1,Income,payout
+374,8,Groceries,Berry Mart
+375,8,Groceries,Kwik-E-Mart
+376,4,Fuel,Fuel Stop HQ
+377,2,Eating Out,Los Pollos Hermanos
+378,2,Eating Out,Paunch Burger
+379,2,Eating Out,The Chinese Restaurant
+380,8,Groceries,Hector's
+381,2,Eating Out,Fratellis Restaurant 
+382,2,Eating Out,Omeletteville
+383,2,Eating Out,The Caribou Kitchen
+384,8,Groceries,Vespucci Liquor Market
+385,8,Groceries,Mama Mart
+386,8,Groceries,Fresh Feed
+387,4,Fuel,Super Station
+388,2,Eating Out,Frozen Banana Stand
+389,2,Eating Out,MacLarens Pub
+390,8,Groceries,Berry Mart
+391,8,Groceries,Auto Mercado Del Sol
+392,2,Eating Out,Casanovas Chinese Restaurant
+393,5,Sport,Living Fitness
+394,8,Groceries,Foodie Mart
+395,2,Eating Out,Satriales Pork Store
+396,2,Eating Out,Dorsia
+397,2,Eating Out,Soul Food Cafe
+398,2,Eating Out,Vesuvio
+399,2,Eating Out,Solino
+400,1,Income,payout
+401,2,Eating Out,Boars Nest
+402,8,Groceries,Berry Mart
+403,2,Eating Out,Robins Nest
+404,8,Groceries,Auto Mercado Del Sol
+405,2,Eating Out,Vesuvio
+406,2,Eating Out,The Whistle Stop Cafe
+407,4,Fuel,Gas Stop
+408,1,Income,payout
+409,2,Eating Out,The Double R Diner
+410,4,Fuel,Gas Stop
+411,2,Eating Out,Big Kahuna Burger
+412,8,Groceries,Foodie Mart
+413,8,Groceries,Tonys Grossery
+414,8,Groceries,Vespucci Liquor Market
+415,8,Groceries,Hector's
+416,2,Eating Out,Monk Cafe
+417,2,Eating Out,Ye Olde Greyfriars Dining-Rooms
+418,6,Utilities,McCandless Communications Corporation
+419,1,Income,payout
+420,4,Fuel,Gas-N-Go
+421,8,Groceries,Berry Mart
+422,1,Income,payout
+423,1,Income,payout
+424,1,Income,payout
+425,8,Groceries,Cloud 9
+426,8,Groceries,Mini Mart
+427,2,Eating Out,Vesuvio
+428,2,Eating Out,Bob's Burgers
+429,2,Eating Out,JJs Diner
+430,8,Groceries,Vespucci Liquor Market
+431,4,Fuel,Gas Stop
+432,8,Groceries,Kwik-E-Mart
+433,1,Income,payout
+434,2,Eating Out,Pie in the Sky
+435,1,Income,payout
+436,8,Groceries,Auto Mercado Del Sol
+437,2,Eating Out,Louie's Italian Restaurant
+438,2,Eating Out,Catlemans ranch
+439,2,Eating Out,Catlemans ranch
+440,8,Groceries,Berry Mart
+441,1,Income,payout
+442,1,Income,payout
+443,2,Eating Out,Good Burger
+444,4,Fuel,Super Station
+445,2,Eating Out,Good Burger
+446,2,Eating Out,Gastons
+447,8,Groceries,Cloud 9
+448,2,Eating Out,Sals Pizza
+449,8,Groceries,Web n Muffet Market
+450,2,Eating Out,Panic Restaurant
+451,5,Sport,Equilibrium Fitness
+452,2,Eating Out,Fratellis Restaurant 
+453,2,Eating Out,Monk Cafe
+454,2,Eating Out,The ice-cream parlor
+455,4,Fuel,Super Station
+456,2,Eating Out,Omeletteville
+457,2,Eating Out,The Goulash
+458,2,Eating Out,Beacon Street Pizza
+459,3,Personal Care,Spishwax from Spishak
+460,8,Groceries,Cloud 9
+461,2,Eating Out,Panic Restaurant
+462,8,Groceries,Kwik-E-Mart
+463,2,Eating Out,Pie in the Sky
+464,8,Groceries,Fresh Feed
+465,2,Eating Out,Pizza Planet
+466,2,Eating Out,Ye Olde Greyfriars Dining-Rooms
+467,2,Eating Out,Hells Kitchen
+468,2,Eating Out,Soul Kitchen
+469,2,Eating Out,The Goulash
+470,4,Fuel,Gas-N-Go
+471,8,Groceries,Berry Mart
